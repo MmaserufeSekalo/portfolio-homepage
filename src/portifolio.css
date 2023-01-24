@@ -1,4 +1,19 @@
 body {
-  background: black;
-  border: 1px solid silver;
+  background-color: black;
+
+  color: var(--primary-color);
+}
+.hero {
+  padding: 150px 50px;
+  background-color: black;
+
+  text-align: center;
+
+  margin-top: 60px;
+}
+h1 {
+  font-size: 100px;
+}
+:root {
+  --primary-color: rgb(206, 227, 245);
 }
